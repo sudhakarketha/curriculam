@@ -1,0 +1,27 @@
+.main {
+    width: 100%;
+   min-height: 100vh;
+    display: flex;
+    padding: 1rem 0.5rem;
+}
+
+.lside-bar,
+.rside-bar {
+    background-color: hsl(0, 5%, 92%);
+    padding: 2rem;
+
+}
+
+.lside-bar {
+  
+    width: 27%;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.rside-bar {
+    margin: 1%;
+    width: 69%;
+    border-radius: 10px;
+    /* margin-left: 2%; */
+}

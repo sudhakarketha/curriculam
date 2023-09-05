@@ -1,0 +1,96 @@
+.menu {
+    list-style: none;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+ul li {
+    list-style-type: numbers;
+   /* text-align: center;
+   align-items: center;
+    display: flex; */
+}
+
+.menu ol,
+li {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    list-style: none;
+
+}
+
+.menu ol {
+    
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.menu ol:hover {
+    background-color: hsl(0, 5%, 100%);
+    border-radius: 25px;
+}
+
+.fa-book,
+.fa-lightbulb,
+.fa-person-running,
+.fa-question {
+    margin: 0 0.5rem;
+
+}
+
+.fa-book {
+    color: blue;
+}
+
+.fa-question {
+    color: red;
+}
+
+/* .sub-menu{
+     display: none;
+} */
+
+/* ---------- */
+
+.dropdown.open .sub-menu {
+    display: block;
+}
+
+.sub-menu.show {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.sub-menu {
+    display: none;
+    opacity: 0;
+    /* transform: translateY(-10px);
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    min-width: 200px;
+    z-index: 1; */
+}
+
+/* ----------- */
+/* .round{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 1rem;
+} */
